@@ -15,6 +15,7 @@
     /* pour cacher le contenu dépassant de l'élément */
     overflow: hidden;
     /* pour l'animation, transition sur width */
+    transition: width 1s;
     /* couleur de fond #eee */
     /* pour enlever les puces */
     /* pour espacer les éléments, marge de 3px */
