@@ -80,3 +80,6 @@
     border: none;
     background-color: #B0DFF5;
 }
+#onglets ul li:last-child {
+    border-bottom: 1px solid #ccc;
+}
