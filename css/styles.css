@@ -76,3 +76,7 @@
     background-color: #5EB4DC;
     transition: background-color 0.3s ease;
 }
+#onglets ul li.actif {
+    border: none;
+    background-color: #B0DFF5;
+}
