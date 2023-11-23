@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script@defer src="https://unpkg.com/alpinejs" defer></script>
+    <script defer src="https://unpkg.com/alpinejs" defer></script>
     <link defer rel="stylesheet" href="../css/styles.css">
     <title>Onglets</title>
   </head>
@@ -12,20 +12,20 @@
     <h1>Onglets</h1>
     <div id="onglets" x-data="{estOuvert:1}">
       <ul role="tablist">
-        <li role="tab" :class="{'actif': estOuvert === 1}" @click="ouvert = 1">Onglet 1</li>
-        <li role="tab" :class="{'actif': estOuvert === 2}" @click="ouvert = 2">Onglet 2</li>
-        <li role="tab" :class="{'actif': estOuvert === 3}" @click="ouvert = 3">Onglet 3</li>
+        <li role="tab" :class="{'actif': estOuvert === 1}" @click="estOuvert= 1">Onglet 1</li>
+        <li role="tab" :class="{'actif': estOuvert === 2}" @click="estOuvert = 2">Onglet 2</li>
+        <li role="tab" :class="{'actif': estOuvert === 3}" @click="estOuvert = 3">Onglet 3</li>
       </ul>
       <div>
-        <div :class="{'active': estOuvert === 1 }" class="active" role="tabpanel">
+        <div :class="{'active': estOuvert === 1}" class="active" role="tabpanel">
           <h1>Panneau 1</h1>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis doloremque molestiae a labore optio distinctio odit, illum perferendis aperiam aspernatur maiores, ipsum fugiat, quia nobis natus eveniet alias adipisci rerum!</p>
         </div>
-        <div :class="{'active': estOuvert === 2 }" class="active" role="tabpanel">
+        <div :class="{'active': estOuvert === 2}" class="active" role="tabpanel">
           <h1>Panneau 2</h1>
           <p>Molestias quisquam rerum eligendi asperiores quidem accusamus fugit sed nostrum dolor voluptatem repudiandae ratione minus suscipit, magnam nihil vitae accusantium provident sit iure! Eveniet nihil suscipit eos, cum alias autem.</p>
         </div>
-        <div :class="{'active': estOuvert === 3 }" class="active" role="tabpanel">
+        <div :class="{'active': estOuvert === 3}" class="active" role="tabpanel">
           <h1>Panneau 3</h1>
           <p>Provident dolor quasi ex eaque aut molestiae fuga voluptatibus tempore nihil quibusdam. Consequuntur, animi architecto voluptates obcaecati impedit quibusdam sequi, vel officiis iste corporis, tempore necessitatibus atque. Quibusdam, in molestiae?</p>
         </div>

@@ -71,33 +71,24 @@
 #onglets ul li {
     padding: 10px 15px;
     cursor: pointer;
-    border: 1px solid #6BB2D3;
-    border-bottom: none;
-    background-color: #777;
-    transition: background-color 0.3s ease;
 }
 #onglets ul li.actif {
     border: none;
     background-color: #B0DFF5;
 }
-#onglets ul li:last-child {
-    border-bottom: 1px solid #ccc;
-}
 #onglets div {
-   position: relative;
-   height: 200px;
-   width: 100%;
-   overflow: hidden;
+    position: relative;
+    height: 200px;
+    width: 100%;
 }
-#onglets div > div {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   opacity: 0;
-   transition: opacity 0.3s ease;
+#onglets div>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
-#onglets div > div.active {
-   opacity: 1;
+#onglets div>div.active {
+    opacity: 1;
 }
