@@ -73,7 +73,7 @@
     cursor: pointer;
     border: 1px solid #6BB2D3;
     border-bottom: none;
-    background-color: #5EB4DC;
+    background-color: #777;
     transition: background-color 0.3s ease;
 }
 #onglets ul li.actif {
@@ -98,6 +98,6 @@
    opacity: 0;
    transition: opacity 0.3s ease;
 }
-#onglets div > div.actif {
+#onglets div > div.active {
    opacity: 1;
 }
