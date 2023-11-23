@@ -71,15 +71,20 @@
 #onglets ul li {
     padding: 10px 15px;
     cursor: pointer;
+    border: 1px solid #FF34FF;
+    border:-bottom: none;
+    background-color: #FF34FF;
+    transition: background-color 0.3s ease;
 }
 #onglets ul li.actif {
     border: none;
-    background-color: #B0DFF5;
+    background-color: #ff90FF;
 }
 #onglets div {
     position: relative;
     height: 200px;
     width: 100%;
+    overflow: hidden;
 }
 #onglets div>div {
     position: absolute;
