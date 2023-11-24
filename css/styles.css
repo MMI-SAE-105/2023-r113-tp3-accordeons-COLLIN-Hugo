@@ -72,7 +72,7 @@
     padding: 10px 15px;
     cursor: pointer;
     border: 1px solid #FF34FF;
-    border:-bottom: none;
+    border-bottom: none;
     background-color: #FF34FF;
     transition: background-color 0.3s ease;
 }
