@@ -71,22 +71,28 @@
 #onglets ul li {
     padding: 10px 15px;
     cursor: pointer;
-    border: 1px solid #FF34FF;
+    border: 2px solid #FF34FF;
     border-bottom: none;
     background-color: #FF34FF;
     transition: background-color 0.3s ease;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
 }
 #onglets ul li.actif {
     border: none;
     background-color: #ff90FF;
+    border-bottom: 2px solid #ccc;
 }
 #onglets div {
+    border: 1px solid #ccc;
+    padding: 20px;
     position: relative;
     height: 200px;
     width: 100%;
     overflow: hidden;
 }
 #onglets div>div {
+    display: none;
     position: absolute;
     top: 0;
     left: 0;
@@ -95,5 +101,6 @@
     transition: opacity 0.3s ease;
 }
 #onglets div>div.active {
+    display: block;
     opacity: 1;
 }
